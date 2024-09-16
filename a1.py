@@ -43,6 +43,8 @@ def factorial(n: int) -> int:
     """
     result = 1
     for x in range(1, n + 1):
+        result *= n
+    return result
 
 T = TypeVar("T")
 
@@ -66,7 +68,7 @@ def every_other(lst: List[T]) -> List[T]:
 
     #Python Method
     #(:->Starts at beginning/:->Goes through whole list)
-    return lst(::2)
+    return lst[::2]
 def sum_list(lst: List[int]) -> int:
     """Takes a list of numbers, and returns the sum of the numbers in that list. Cannot
     use the built in function `sum`.
