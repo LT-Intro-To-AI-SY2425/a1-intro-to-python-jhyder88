@@ -41,8 +41,8 @@ def factorial(n: int) -> int:
     Returns:
         factorial of the passed in number
     """
-    raise NotImplementedError("factorial")
-
+    result = 1
+    for x in range(1, n + 1):
 
 T = TypeVar("T")
 
@@ -58,9 +58,15 @@ def every_other(lst: List[T]) -> List[T]:
     Returns:
         a list of every of other item in the original list starting with the first
     """
-    raise NotImplementedError("every_other")
+    #Java Method
+   # new_lst = []
+    #for i in range(0,len(lst),2):
+     #   new_lst.append(lst[i])
+    #return new_lst
 
-
+    #Python Method
+    #(:->Starts at beginning/:->Goes through whole list)
+    return lst(::2)
 def sum_list(lst: List[int]) -> int:
     """Takes a list of numbers, and returns the sum of the numbers in that list. Cannot
     use the built in function `sum`.
@@ -71,8 +77,11 @@ def sum_list(lst: List[int]) -> int:
     Returns:
         the sum of the passed in list
     """
-    raise NotImplementedError("sum_list")
-
+    #el = each element
+    s = 0
+    for el in lst:
+        s += el
+    return s
 
 def mean(lst: List[int]) -> float:
     """Takes a list of numbers, and returns the mean of the numbers.
