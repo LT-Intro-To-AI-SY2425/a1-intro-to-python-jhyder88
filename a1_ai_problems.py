@@ -18,6 +18,15 @@ print("Quotient" + quotient)
 #Simple Temperature Converter
 #Write a Python program that converts a temperature from Celsius to Fahrenheit and vice versa. The program should prompt the user to choose the conversion type and then input the temperature they wish to convert.
 user_input = input("Would you like to convert from Celsius to Fahrenheit or Fahrenheit to Celsius")
+if user_input == "Celsius":
+    celsius = input("Temp in Celsius:")
+    fahrenheit = celsius * 9/5 + 32
+    print(celsius + "degrees celsius equals" + fahrenheit "degrees fahrenheit")
+elif user_input == "Fahrenheit":
+    fahrenheit = input("Temp in Fahrenheit:")
+    celsius = (fahrenheit - 32) * 5/9
+    print(fahrenheit + "degrees fahrenheit equals" + celsius "degrees celsius")
+#Struggled initally to figure out how to start, eventually got it but still not sure if parts of the conditional work
 
 
 
