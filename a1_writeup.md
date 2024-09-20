@@ -13,11 +13,12 @@ Mr. Berg will look at all your files to determine what you have completed.  If t
 ## Reflection Questions
 
 1. What is your initial thoughts about the python programming language?
-
+I'm still adapting to new language/principles after programming in Java/Javascrpit the last two years, however, I'm liking the simplicity of the language and am excited to keep expanding my knowledge of python.
 
 
 2. Describe some similarities and differences that you found between python and other programming languages you have used in the past?
-
+Python defnintely has some simpler code compared to other languages, at times it feels as if you're coding like how you would write pseudocode in other languages. There are definitely times where code is similar to other languages in which you need more lines of code to solve the issue.
 
 
 3. What are some things that you learned through this assignment?
+I learned how to do things such as use user input/(forogt the term) but how to combine string and variables when printing code. Learned how to do one line if statements or returns.
